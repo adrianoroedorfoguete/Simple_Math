@@ -13,9 +13,8 @@ class quizViewController: UIViewController {
     
     
     @IBOutlet var btopcoes: [UIButton]!
-    
-    
-    @IBOutlet weak var pergunta: UILabel!
+        
+   @IBOutlet weak var pergunta: UILabel!
     
     var manager = managerQuiz()
     var questao: quiz!
@@ -29,7 +28,7 @@ class quizViewController: UIViewController {
         
         
     }
-    
+
     @IBAction func opcoes(_ sender: UIButton) {
         
         let index = Int(btopcoes.firstIndex(of: sender) ?? 0)
