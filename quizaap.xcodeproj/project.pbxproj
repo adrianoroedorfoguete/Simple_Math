@@ -48,9 +48,6 @@
 		075DE696291ADB7900646183 = {
 			isa = PBXGroup;
 			children = (
-				075DE6B9291AE03E00646183 /* quizViewController */,
-				075DE6B8291AE02F00646183 /* model */,
-				075DE6B7291AE01600646183 /* mainViewController */,
 				075DE6A1291ADB7900646183 /* quizaap */,
 				075DE6A0291ADB7900646183 /* Products */,
 			);
@@ -69,6 +66,11 @@
 			children = (
 				075DE6AB291ADB7A00646183 /* Assets.xcassets */,
 				075DE6B0291ADB7A00646183 /* Info.plist */,
+				075DE6B9291AE03E00646183 /* quizViewController */,
+				075DE6B8291AE02F00646183 /* model */,
+				075DE6B7291AE01600646183 /* mainViewController */,
+				075DE6A4291ADB7900646183 /* SceneDelegate.swift */,
+				075DE6A2291ADB7900646183 /* AppDelegate.swift */,
 			);
 			path = quizaap;
 			sourceTree = "<group>";
@@ -87,8 +89,6 @@
 			children = (
 				075DE6C0291AE0CD00646183 /* model.swift */,
 				075DE6C6291AE57400646183 /* manager.swift */,
-				075DE6A4291ADB7900646183 /* SceneDelegate.swift */,
-				075DE6A2291ADB7900646183 /* AppDelegate.swift */,
 			);
 			path = model;
 			sourceTree = "<group>";
