@@ -72,7 +72,67 @@ class managerQuiz{
         quiz(label: "7x4 é igual a?", perguntas: ["28", "75", "45"], resposta:0),
         quiz(label: "8x1 é igual a?", perguntas: ["8", "35", "19"], resposta:0),
         
-        
+        quiz(label: "quanto é 2/2", perguntas: ["1","4","5"], resposta: 0),
+        quiz(label: "quanto é 8/2", perguntas: ["1","4","5"], resposta: 1),
+        quiz(label: "quanto é 12/2", perguntas: ["1","4","5"], resposta: 0),
+        quiz(label: "quanto é 6/2", perguntas: ["6","4","3"], resposta: 2),
+        quiz(label: "quanto é 4/2", perguntas: ["1","4","5"], resposta: 0),
+        quiz(label: "quanto é 10/2", perguntas: ["1","4","5"], resposta: 2),
+        quiz(label: "quanto é 6/3", perguntas: ["2","4","8"], resposta: 0),
+        quiz(label: "quanto é 9/3", perguntas: ["1","3","5"], resposta: 1),
+        quiz(label: "quanto é 18/3", perguntas: ["1","4","6"], resposta: 0),
+        quiz(label: "quanto é 20/4", perguntas: ["1","4","5"], resposta: 1),
+        quiz(label: "quanto é 15/3", perguntas: ["1","4","5"], resposta: 2),
+        quiz(label: "quanto é 18/6", perguntas: ["3","4","5"], resposta: 0),
+        quiz(label: "quanto é 24/12", perguntas: ["4","2","6"], resposta: 1),
+        quiz(label: "quanto é 16/2", perguntas: ["1","4","8"], resposta: 0),
+        quiz(label: "quanto é 24/24", perguntas: ["1","4","5"], resposta: 0),
+        quiz(label: "quanto é 2/1", perguntas: ["1","4","2"], resposta: 2),
+        quiz(label: "quanto é 12/6", perguntas: ["1","2","5"], resposta: 1),
+        quiz(label: "quanto é 18/9", perguntas: ["2","4","5"], resposta: 0),
+        quiz(label: "quanto é 63/7", perguntas: ["5","9","8"], resposta: 1),
+        quiz(label: "quanto é 81/9", perguntas: ["1","4","9"], resposta: 2),
+        quiz(label: "quanto é 54/6", perguntas: ["9","4","5"], resposta: 0),
+        quiz(label: "quanto é 72/8", perguntas: ["1","4","9"], resposta: 2),
+        quiz(label: "quanto é 64/8", perguntas: ["8","7","5"], resposta: 0),
+        quiz(label: "quanto é 36/6", perguntas: ["1","4","6"], resposta: 2),
+        quiz(label: "quanto é 32/8", perguntas: ["1","4","5"], resposta: 1),
+        quiz(label: "quanto é 40/10", perguntas: ["1","4","5"], resposta: 1),
+        quiz(label: "quanto é 27/9", perguntas: ["1","4","3"], resposta: 2),
+        quiz(label: "quanto é 90/2", perguntas: ["45","46","56"], resposta: 0),
+        quiz(label: "quanto é 16/4", perguntas: ["1","4","5"], resposta: 1),
+        quiz(label: "quanto é 200/2", perguntas: ["100","10","99"], resposta: 0),
+    
+    
+        quiz(label: "quanto é 2-2", perguntas: ["2", "3", "0"], resposta: 2),
+        quiz(label: "quanto é 2-8", perguntas: ["4", "6", "0"], resposta: 1),
+        quiz(label: "quanto é 2-9", perguntas: ["2", "3", "7"], resposta: 2),
+        quiz(label: "quanto é 3-2", perguntas: ["1", "3", "0"], resposta: 0),
+        quiz(label: "quanto é 7-10", perguntas: ["2", "3", "0"], resposta: 1),
+        quiz(label: "quanto é 8-3", perguntas: ["2", "5", "0"], resposta: 1),
+        quiz(label: "quanto é 5-2", perguntas: ["3", "4", "0"], resposta: 0),
+        quiz(label: "quanto é 1-2", perguntas: ["2", "1", "0"], resposta: 1),
+        quiz(label: "quanto é 8-9", perguntas: ["2", "4", "1"], resposta: 2),
+        quiz(label: "quanto é 4-11", perguntas: ["7", "4", "6"], resposta: 0),
+        quiz(label: "quanto é 8-7", perguntas: ["1", "5", "8"], resposta: 1),
+        quiz(label: "quanto é 12-6", perguntas: ["6", "4", "5"], resposta: 0),
+        quiz(label: "quanto é 7-14", perguntas: ["7", "1", "6"], resposta: 0),
+        quiz(label: "quanto é 5-10", perguntas: ["5", "3", "0"], resposta: 0),
+        quiz(label: "quanto é 12-42", perguntas: ["2", "30", "0"], resposta: 1),
+        quiz(label: "quanto é 16-2", perguntas: ["14", "3", "0"], resposta: 0),
+        quiz(label: "quanto é 52-2", perguntas: ["51", "50", "49"], resposta: 1),
+        quiz(label: "quanto é 3-4", perguntas: ["2", "1", "0"], resposta: 1),
+        quiz(label: "quanto é 9-5", perguntas: ["4", "3", "0"], resposta: 0),
+        quiz(label: "quanto é 22-11", perguntas: ["2", "11", "0"], resposta: 1),
+        quiz(label: "quanto é 7-2", perguntas: ["5", "9", "7"], resposta: 0),
+        quiz(label: "quanto é 21-7", perguntas: ["14", "16", "15"], resposta: 0),
+        quiz(label: "quanto é 10-6", perguntas: ["4", "2", "3"], resposta: 0),
+        quiz(label: "quanto é 90-100", perguntas: ["12", "10", "11"], resposta: 1),
+        quiz(label: "quanto é 21-22", perguntas: ["1", "2", "0"], resposta: 0),
+        quiz(label: "quanto é 10-2", perguntas: ["2", "8", "5"], resposta: 1),
+        quiz(label: "quanto é 5-2", perguntas: ["2", "3", "0"], resposta: 1),
+        quiz(label: "quanto é 92-2", perguntas: ["91", "90", "88"], resposta: 1),
+        quiz(label: "quanto é 100-2000", perguntas: ["190", "1900", "19"], resposta: 1)
     ]
     
     var minimo = 0
@@ -83,7 +143,7 @@ class managerQuiz{
         return pergunta[cont]
         
     }
-    
+
     
     
     
