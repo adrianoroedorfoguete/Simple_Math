@@ -13,7 +13,7 @@ class quizViewController: UIViewController {
     
     
     @IBOutlet var btopcoes: [UIButton]!
-        
+    
    @IBOutlet weak var pergunta: UILabel!
     
     var manager = managerQuiz()
@@ -32,7 +32,16 @@ class quizViewController: UIViewController {
     @IBAction func opcoes(_ sender: UIButton) {
         
         let index = Int(btopcoes.firstIndex(of: sender) ?? 0)
-        reloadOpcoes()
+        manager.checkAswer(posiçao: index)
+        if manager.checkFinal(){
+            performSegue(withIdentifier: "segueResult", sender: nil)}else{
+                reloadOpcoes()
+            }
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let viewresult = segue.destination as! resultViewController
+        viewresult.manger = manager
     }
     
     func reloadOpcoes(){

@@ -8,22 +8,45 @@
 import UIKit
 
 class mainViewController: UIViewController {
-
+    var manger = managerQuiz()
+    
+    @IBOutlet var btop: [UIButton]!
+    let Main = UIStoryboard(name: "Main", bundle: nil)
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+       
+       
+    }
+    @IBAction func btQuiz(_ sender: UIButton){
+        
+        let VIEW_QUIZ:quizViewController = Main.instantiateViewController(withIdentifier: "Quiz") as! quizViewController
+        let index = btop.firstIndex(of: sender) ?? 0
+        checkButton(cbIndex: index)
+        VIEW_QUIZ.manager = manger
+        present(VIEW_QUIZ,animated: true )
+        performSegue(withIdentifier: "segueQuiz", sender: nil)
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    func checkButton(cbIndex: Int){
+        if cbIndex == 0 {
+            manger.minimo = 0
+            manger.maximo = 29
+        }
+        if cbIndex == 1 {
+            manger.minimo = 30
+            manger.maximo = 59
+        }
+        if cbIndex == 2 {
+            manger.minimo = 60
+            manger.maximo = 89
+        }
+        if cbIndex == 3 {
+            manger.minimo = 90
+            manger.maximo = 119
+        }
     }
-    */
+    
 
 }

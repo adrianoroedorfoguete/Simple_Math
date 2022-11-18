@@ -10,20 +10,20 @@ import Foundation
 class managerQuiz{
     var pergunta: [quiz] = [
         
-        quiz(label: "2+2 é igual a?", perguntas: ["4", "5", "3"], resposta:0),
-        quiz(label: "2+3 é igual a?", perguntas: ["4", "5", "3"], resposta:1),
-        quiz(label: "2+6 é igual a?", perguntas: ["4", "8", "3"], resposta:1),
-        quiz(label: "3+3 é igual a?", perguntas: ["4", "5", "6"], resposta:2),
-        quiz(label: "2+4 é igual a?", perguntas: ["6", "5", "3"], resposta:0),
-        quiz(label: "6+9 é igual a?", perguntas: ["4", "15", "3"], resposta:1),
-        quiz(label: "4+8 é igual a?", perguntas: ["4", "5", "12"], resposta:2),
-        quiz(label: "8+2 é igual a?", perguntas: ["10", "5", "3"], resposta:0),
-        quiz(label: "3+5 é igual a?", perguntas: ["4", "8", "3"], resposta:1),
-        quiz(label: "0+2 é igual a?", perguntas: ["4", "5", "2"], resposta:2),
-        quiz(label: "2+1 é igual a?", perguntas: ["3", "5", "3"], resposta:0),
-        quiz(label: "2+7 é igual a?", perguntas: ["4", "9", "3"], resposta:1),
-        quiz(label: "2+9 é igual a?", perguntas: ["4", "5", "11"], resposta:2),
-        quiz(label: "4+4 é igual a?", perguntas: ["8", "5", "3"], resposta:0),
+        quiz(label: "2 + 2", perguntas: ["4", "5", "3"], resposta:0),
+        quiz(label: "2 + 3", perguntas: ["4", "5", "3"], resposta:1),
+        quiz(label: "2 + 6", perguntas: ["4", "8", "3"], resposta:1),
+        quiz(label: "3 + 3", perguntas: ["4", "5", "6"], resposta:2),
+        quiz(label: "2 + 4", perguntas: ["6", "5", "3"], resposta:0),
+        quiz(label: "6 + 9", perguntas: ["4", "15", "3"], resposta:1),
+        quiz(label: "4 + 8", perguntas: ["4", "5", "12"], resposta:2),
+        quiz(label: "8 + 2", perguntas: ["10", "5", "3"], resposta:0),
+        quiz(label: "3 + 5", perguntas: ["4", "8", "3"], resposta:1),
+        quiz(label: "0 + 2", perguntas: ["4", "5", "2"], resposta:2),
+        quiz(label: "2 + 1", perguntas: ["3", "5", "3"], resposta:0),
+        quiz(label: "2 + 7", perguntas: ["4", "9", "3"], resposta:1),
+        quiz(label: "2 + 9", perguntas: ["4", "5", "11"], resposta:2),
+        quiz(label: "4 + 4", perguntas: ["8", "5", "3"], resposta:0),
         quiz(label: "9+1 é igual a?", perguntas: ["4", "10", "3"], resposta:1),
         quiz(label: "2+3 é igual a?", perguntas: ["4", "5", "3"], resposta:1),
         quiz(label: "1+2 é igual a?", perguntas: ["4", "5", "3"], resposta:2),
@@ -74,18 +74,18 @@ class managerQuiz{
         
         quiz(label: "quanto é 2/2", perguntas: ["1","4","5"], resposta: 0),
         quiz(label: "quanto é 8/2", perguntas: ["1","4","5"], resposta: 1),
-        quiz(label: "quanto é 12/2", perguntas: ["1","4","5"], resposta: 0),
+        quiz(label: "quanto é 12/2", perguntas: ["6","4","5"], resposta: 0),
         quiz(label: "quanto é 6/2", perguntas: ["6","4","3"], resposta: 2),
-        quiz(label: "quanto é 4/2", perguntas: ["1","4","5"], resposta: 0),
+        quiz(label: "quanto é 4/2", perguntas: ["2","4","5"], resposta: 0),
         quiz(label: "quanto é 10/2", perguntas: ["1","4","5"], resposta: 2),
         quiz(label: "quanto é 6/3", perguntas: ["2","4","8"], resposta: 0),
         quiz(label: "quanto é 9/3", perguntas: ["1","3","5"], resposta: 1),
-        quiz(label: "quanto é 18/3", perguntas: ["1","4","6"], resposta: 0),
-        quiz(label: "quanto é 20/4", perguntas: ["1","4","5"], resposta: 1),
+        quiz(label: "quanto é 18/3", perguntas: ["1","4","6"], resposta: 2),
+        quiz(label: "quanto é 20/4", perguntas: ["1","4","5"], resposta: 2),
         quiz(label: "quanto é 15/3", perguntas: ["1","4","5"], resposta: 2),
         quiz(label: "quanto é 18/6", perguntas: ["3","4","5"], resposta: 0),
         quiz(label: "quanto é 24/12", perguntas: ["4","2","6"], resposta: 1),
-        quiz(label: "quanto é 16/2", perguntas: ["1","4","8"], resposta: 0),
+        quiz(label: "quanto é 16/2", perguntas: ["1","4","8"], resposta: 2),
         quiz(label: "quanto é 24/24", perguntas: ["1","4","5"], resposta: 0),
         quiz(label: "quanto é 2/1", perguntas: ["1","4","2"], resposta: 2),
         quiz(label: "quanto é 12/6", perguntas: ["1","2","5"], resposta: 1),
@@ -105,20 +105,20 @@ class managerQuiz{
     
     
         quiz(label: "quanto é 2-2", perguntas: ["2", "3", "0"], resposta: 2),
-        quiz(label: "quanto é 2-8", perguntas: ["4", "6", "0"], resposta: 1),
-        quiz(label: "quanto é 2-9", perguntas: ["2", "3", "7"], resposta: 2),
+        quiz(label: "quanto é 8-2", perguntas: ["4", "6", "0"], resposta: 1),
+        quiz(label: "quanto é 9-2", perguntas: ["2", "3", "7"], resposta: 2),
         quiz(label: "quanto é 3-2", perguntas: ["1", "3", "0"], resposta: 0),
-        quiz(label: "quanto é 7-10", perguntas: ["2", "3", "0"], resposta: 1),
+        quiz(label: "quanto é 10-7", perguntas: ["2", "3", "0"], resposta: 1),
         quiz(label: "quanto é 8-3", perguntas: ["2", "5", "0"], resposta: 1),
         quiz(label: "quanto é 5-2", perguntas: ["3", "4", "0"], resposta: 0),
-        quiz(label: "quanto é 1-2", perguntas: ["2", "1", "0"], resposta: 1),
-        quiz(label: "quanto é 8-9", perguntas: ["2", "4", "1"], resposta: 2),
-        quiz(label: "quanto é 4-11", perguntas: ["7", "4", "6"], resposta: 0),
+        quiz(label: "quanto é 2-1", perguntas: ["2", "1", "0"], resposta: 1),
+        quiz(label: "quanto é 9-8", perguntas: ["2", "4", "1"], resposta: 2),
+        quiz(label: "quanto é 11-4", perguntas: ["7", "4", "6"], resposta: 0),
         quiz(label: "quanto é 8-7", perguntas: ["1", "5", "8"], resposta: 1),
         quiz(label: "quanto é 12-6", perguntas: ["6", "4", "5"], resposta: 0),
-        quiz(label: "quanto é 7-14", perguntas: ["7", "1", "6"], resposta: 0),
-        quiz(label: "quanto é 5-10", perguntas: ["5", "3", "0"], resposta: 0),
-        quiz(label: "quanto é 12-42", perguntas: ["2", "30", "0"], resposta: 1),
+        quiz(label: "quanto é 14-7", perguntas: ["7", "1", "6"], resposta: 0),
+        quiz(label: "quanto é 10-5", perguntas: ["5", "3", "0"], resposta: 0),
+        quiz(label: "quanto é 42-12", perguntas: ["2", "30", "0"], resposta: 1),
         quiz(label: "quanto é 16-2", perguntas: ["14", "3", "0"], resposta: 0),
         quiz(label: "quanto é 52-2", perguntas: ["51", "50", "49"], resposta: 1),
         quiz(label: "quanto é 3-4", perguntas: ["2", "1", "0"], resposta: 1),
@@ -132,12 +132,17 @@ class managerQuiz{
         quiz(label: "quanto é 10-2", perguntas: ["2", "8", "5"], resposta: 1),
         quiz(label: "quanto é 5-2", perguntas: ["2", "3", "0"], resposta: 1),
         quiz(label: "quanto é 92-2", perguntas: ["91", "90", "88"], resposta: 1),
-        quiz(label: "quanto é 100-2000", perguntas: ["190", "1900", "19"], resposta: 1)
+        quiz(label: "quanto é 100-2000", perguntas: ["190", "1900", "19"], resposta: 1),
+        quiz(label: "quanto é 1999-740", perguntas: ["190", "1900", "19"], resposta: 1)
     ]
     
     var minimo = 0
     var maximo = 29
-    
+    var pontuação = 0
+    var index = 0
+    var respostas = 0
+   var total = 10
+   
     func reloadQuiz() -> quiz{
         var cont = Int.random(in: minimo...maximo)
         return pergunta[cont]
@@ -145,6 +150,19 @@ class managerQuiz{
     }
 
     
-    
-    
+    func checkAswer(posiçao:Int){
+        if posiçao == pergunta[index].resposta{
+            
+            pontuação = pontuação + 1
+        }
+        
+    }
+    func checkFinal() -> Bool{
+        respostas = respostas + 1
+        if respostas == total{
+            return true
+        }else{
+            return false
+        }
+    }
 }
