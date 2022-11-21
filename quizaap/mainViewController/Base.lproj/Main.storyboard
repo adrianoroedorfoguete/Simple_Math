@@ -52,15 +52,15 @@
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="clique em um dos botões abaixo para entrar em um quiz-3" translatesAutoresizingMaskIntoConstraints="NO" id="Emg-Yi-pt3">
-                                <rect key="frame" x="-2" y="0.0" width="416" height="895"/>
+                                <rect key="frame" x="-2" y="0.0" width="418" height="895"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="clique em um dos botões abaixo para entrar em um quiz-3" translatesAutoresizingMaskIntoConstraints="NO" id="HBc-jz-JaJ">
-                                <rect key="frame" x="-2" y="0.0" width="416" height="895"/>
+                                <rect key="frame" x="-2" y="0.0" width="418" height="895"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="clique em um dos botões abaixo para entrar em um quiz-3" translatesAutoresizingMaskIntoConstraints="NO" id="1u5-Dl-L5v">
-                                <rect key="frame" x="-2" y="0.0" width="416" height="895"/>
+                                <rect key="frame" x="-2" y="0.0" width="418" height="895"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="clique em um dos botões abaixo para entrar em um quiz-3" translatesAutoresizingMaskIntoConstraints="NO" id="LGx-Jw-L2d">
@@ -218,7 +218,9 @@
                                 <rect key="frame" x="43" y="363" width="276" height="71"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                <state key="normal" backgroundImage="Untitled design-5"/>
+                                <state key="normal" backgroundImage="Untitled design-5">
+                                    <color key="titleColor" systemColor="labelColor"/>
+                                </state>
                                 <connections>
                                     <action selector="opcoes:" destination="xV3-vh-7QQ" eventType="touchUpInside" id="gC2-4E-BOo"/>
                                 </connections>
@@ -227,7 +229,9 @@
                                 <rect key="frame" x="44" y="442" width="276" height="71"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                <state key="normal" backgroundImage="Untitled design-5"/>
+                                <state key="normal" backgroundImage="Untitled design-5">
+                                    <color key="titleColor" systemColor="labelColor"/>
+                                </state>
                                 <connections>
                                     <action selector="opcoes:" destination="xV3-vh-7QQ" eventType="touchUpInside" id="FPH-6E-AWv"/>
                                 </connections>
@@ -236,7 +240,9 @@
                                 <rect key="frame" x="44" y="284" width="276" height="71"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                <state key="normal" backgroundImage="Untitled design-5"/>
+                                <state key="normal" backgroundImage="Untitled design-5">
+                                    <color key="titleColor" systemColor="labelColor"/>
+                                </state>
                                 <connections>
                                     <action selector="opcoes:" destination="xV3-vh-7QQ" eventType="touchUpInside" id="44b-Xr-Yd2"/>
                                 </connections>
@@ -323,34 +329,31 @@
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="clique em um dos botões abaixo para entrar em um quiz-3" translatesAutoresizingMaskIntoConstraints="NO" id="9Mk-mB-o7b">
-                                <rect key="frame" x="-2" y="-1" width="416" height="897"/>
+                                <rect key="frame" x="-2" y="-1" width="418" height="897"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="clique em um dos botões abaixo para entrar em um quiz-3" translatesAutoresizingMaskIntoConstraints="NO" id="ag2-CA-UzW">
-                                <rect key="frame" x="-2" y="-1" width="416" height="897"/>
+                                <rect key="frame" x="-2" y="-1" width="418" height="897"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="clique em um dos botões abaixo para entrar em um quiz-3" translatesAutoresizingMaskIntoConstraints="NO" id="Agg-K4-ihz">
-                                <rect key="frame" x="-2" y="-1" width="416" height="897"/>
+                                <rect key="frame" x="-2" y="-1" width="418" height="897"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="clique em um dos botões abaixo para entrar em um quiz-3" translatesAutoresizingMaskIntoConstraints="NO" id="G8A-Lr-3Vf">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="grQ-QJ-r06">
-                                <rect key="frame" x="165" y="66" width="181" height="178"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Optima-Bold" family="Optima" pointSize="30"/>
-                                <color key="tintColor" red="0.11287729358390054" green="0.4255460003758903" blue="0.78934568169999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                <state key="normal" title="vc venveu" backgroundImage="message.fill" catalog="system">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </state>
-                            </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Untitled design-6" translatesAutoresizingMaskIntoConstraints="NO" id="jsQ-is-qAZ">
-                                <rect key="frame" x="16" y="168" width="301" height="310"/>
+                                <rect key="frame" x="16" y="230" width="301" height="310"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c3X-Hh-lJD">
+                                <rect key="frame" x="31" y="60" width="315" height="176"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="32"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="K6s-ls-Nce"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -366,6 +369,9 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="Y5w-Z0-AYh"/>
+                    <connections>
+                        <outlet property="textao" destination="c3X-Hh-lJD" id="aEI-FT-tX3"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Gx6-bd-n9g" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -382,7 +388,9 @@
         <image name="clique em um dos botões abaixo para entrar em um quiz-8" width="1020" height="1020"/>
         <image name="clique em um dos botões abaixo para entrar em um quiz-9" width="1020" height="1020"/>
         <image name="gearshape" catalog="system" width="128" height="123"/>
-        <image name="message.fill" catalog="system" width="128" height="114"/>
+        <systemColor name="labelColor">
+            <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
         <systemColor name="secondarySystemBackgroundColor">
             <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>

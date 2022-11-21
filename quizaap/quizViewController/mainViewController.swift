@@ -24,6 +24,8 @@ class mainViewController: UIViewController {
         let VIEW_QUIZ:quizViewController = Main.instantiateViewController(withIdentifier: "Quiz") as! quizViewController
         let index = btop.firstIndex(of: sender) ?? 0
         checkButton(cbIndex: index)
+        manger.respostas = 0
+        manger.pontuação = 0
         VIEW_QUIZ.manager = manger
         present(VIEW_QUIZ,animated: true )
         performSegue(withIdentifier: "segueQuiz", sender: nil)
