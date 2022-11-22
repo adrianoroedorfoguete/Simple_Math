@@ -11,8 +11,10 @@ class resultViewController: UIViewController {
 var manger = managerQuiz() 
  
 
+ 
     @IBOutlet weak var textao: UILabel!
     
+   
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -22,8 +24,16 @@ var manger = managerQuiz()
             textao.text = "Tente de novo"
         }else if manger.pontuação < 10{
             textao.text = "Quase lá!"
-        }else {textao.text = "Parabéns, você é um gênio!"}
+        }else {textao.text = "Parabéns,você é um genio"}
+        
+    
     }
+    
+    
+    
+    
+    
+    
     
 
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {

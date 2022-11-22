@@ -34,7 +34,7 @@ class managerQuiz{
         quiz(label: "8 + 2", perguntas: ["4", "5", "10"], resposta:2),
         quiz(label: "12 + 8", perguntas: ["4", "20", "3"], resposta:1),
         quiz(label: "9 + 7", perguntas: ["16", "5", "3"], resposta:0),
-        quiz(label: "11 + 2", perguntas: ["13", "90", "200"], resposta:0),
+        quiz(label: "11 + 2", perguntas: ["13", "90", "20"], resposta:0),
         quiz(label: "22 + 8", perguntas: ["4", "5", "30"], resposta:2),
         quiz(label: "32 + 45", perguntas: ["901", "77", "33"], resposta:1),
         quiz(label: "9 + 2", perguntas: ["11", "5", "3"], resposta:0),
@@ -121,14 +121,14 @@ class managerQuiz{
         quiz(label: "42 - 12", perguntas: ["2", "30", "0"], resposta: 1),
         quiz(label:  "16 - 2", perguntas: ["14", "3", "0"], resposta: 0),
         quiz(label: "52 - 2", perguntas: ["51", "50", "49"], resposta: 1),
-        quiz(label: "3 - 4", perguntas: ["2", "1", "0"], resposta: 1),
+        quiz(label: "4 - 3", perguntas: ["2", "1", "0"], resposta: 1),
         quiz(label: "9 - 5", perguntas: ["4", "3", "0"], resposta: 0),
         quiz(label: "22 - 11", perguntas: ["2", "11", "0"], resposta: 1),
         quiz(label: "7 - 2", perguntas: ["5", "9", "7"], resposta: 0),
         quiz(label: "21 - 7", perguntas: ["14", "16", "15"], resposta: 0),
         quiz(label:  "10 - 6", perguntas: ["4", "2", "3"], resposta: 0),
         quiz(label: "100 - 90", perguntas: ["12", "10", "11"], resposta: 1),
-        quiz(label:  "21 - 22", perguntas: ["1", "2", "0"], resposta: 0),
+        quiz(label:  "22 - 21", perguntas: ["1", "2", "0"], resposta: 0),
         quiz(label: "10 - 2", perguntas: ["2", "8", "5"], resposta: 1),
         quiz(label: "5 - 2", perguntas: ["2", "3", "0"], resposta: 1),
         quiz(label: "92 - 2", perguntas: ["91", "90", "88"], resposta: 1),
@@ -148,7 +148,7 @@ class managerQuiz{
         return pergunta[index]
         
     }
-
+// nos vivemos em uma sociedade
     
     func checkAswer(posiçao:Int){
         if posiçao == pergunta[index].resposta{
