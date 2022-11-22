@@ -22,7 +22,7 @@ var manger = managerQuiz()
             textao.text = "Tente de novo"
         }else if manger.pontuação < 10{
             textao.text = "Quase lá!"
-        }else {textao.text = "Parabéns,você é um genio"}
+        }else {textao.text = "Parabéns, você é um gênio!"}
     }
     
 

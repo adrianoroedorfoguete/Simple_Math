@@ -16,31 +16,23 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="SimpleMAth" translatesAutoresizingMaskIntoConstraints="NO" id="JhQ-ZE-BZa">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="SimpleMAth" translatesAutoresizingMaskIntoConstraints="NO" id="JhQ-ZE-BZa">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="P9z-p4-rKf"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="JhQ-ZE-BZa" firstAttribute="leading" secondItem="P9z-p4-rKf" secondAttribute="leading" id="6RN-yn-URs"/>
-                            <constraint firstItem="JhQ-ZE-BZa" firstAttribute="leading" secondItem="P9z-p4-rKf" secondAttribute="leading" id="9hP-9u-Mvl"/>
-                            <constraint firstItem="JhQ-ZE-BZa" firstAttribute="bottom" secondItem="P9z-p4-rKf" secondAttribute="bottom" id="DYK-Xa-AeT"/>
-                            <constraint firstItem="JhQ-ZE-BZa" firstAttribute="trailing" secondItem="P9z-p4-rKf" secondAttribute="trailing" id="I2A-H9-QRu"/>
-                            <constraint firstItem="JhQ-ZE-BZa" firstAttribute="bottom" secondItem="P9z-p4-rKf" secondAttribute="bottom" id="J8Y-s4-Oy6"/>
-                            <constraint firstItem="JhQ-ZE-BZa" firstAttribute="leading" secondItem="P9z-p4-rKf" secondAttribute="leading" id="Jfh-gI-2Gp"/>
-                            <constraint firstItem="JhQ-ZE-BZa" firstAttribute="bottom" secondItem="P9z-p4-rKf" secondAttribute="bottom" id="Jly-kK-QxP"/>
-                            <constraint firstItem="JhQ-ZE-BZa" firstAttribute="trailing" secondItem="P9z-p4-rKf" secondAttribute="trailing" id="R8h-at-Emx"/>
-                            <constraint firstItem="JhQ-ZE-BZa" firstAttribute="trailing" secondItem="P9z-p4-rKf" secondAttribute="trailing" id="UnX-UO-FVo"/>
-                            <constraint firstItem="JhQ-ZE-BZa" firstAttribute="top" secondItem="P9z-p4-rKf" secondAttribute="top" id="YOy-OQ-8S8"/>
-                            <constraint firstItem="JhQ-ZE-BZa" firstAttribute="top" secondItem="P9z-p4-rKf" secondAttribute="top" id="fYW-FD-2sR"/>
-                            <constraint firstItem="JhQ-ZE-BZa" firstAttribute="top" secondItem="P9z-p4-rKf" secondAttribute="top" id="jKZ-kW-7UH"/>
+                            <constraint firstItem="JhQ-ZE-BZa" firstAttribute="leading" secondItem="P9z-p4-rKf" secondAttribute="leading" id="Aha-vd-nN2"/>
+                            <constraint firstAttribute="bottom" secondItem="JhQ-ZE-BZa" secondAttribute="bottom" id="VA8-ff-pr4"/>
+                            <constraint firstItem="JhQ-ZE-BZa" firstAttribute="trailing" secondItem="P9z-p4-rKf" secondAttribute="trailing" id="acS-9E-rPa"/>
+                            <constraint firstItem="JhQ-ZE-BZa" firstAttribute="top" secondItem="zoj-sL-wdF" secondAttribute="top" id="gaG-I9-YJV"/>
                         </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gGQ-D5-cNZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="124" y="152.47376311844079"/>
+            <point key="canvasLocation" x="123.07692307692307" y="152.13270142180093"/>
         </scene>
     </scenes>
     <resources>

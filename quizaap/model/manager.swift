@@ -26,7 +26,7 @@ class managerQuiz{
         quiz(label: "4 + 4", perguntas: ["8", "5", "3"], resposta:0),
         quiz(label: "9 + 1", perguntas: ["4", "10", "3"], resposta:1),
         quiz(label: "2 + 3", perguntas: ["4", "5", "3"], resposta:1),
-        quiz(label: "1 +2 ", perguntas: ["4", "5", "3"], resposta:2),
+        quiz(label: "1 + 2", perguntas: ["4", "5", "3"], resposta:2),
         quiz(label: "0 + 2", perguntas: ["4", "2", "3"], resposta:1),
         quiz(label: "3 + 9", perguntas: ["4", "5", "12"], resposta:2),
         quiz(label: "4 + 9", perguntas: ["13", "5", "3"], resposta:0),
@@ -42,7 +42,7 @@ class managerQuiz{
         quiz(label: "2 + 11 + 5", perguntas: ["4", "5", "18"], resposta:2),
         
         quiz(label: "2 x 7", perguntas: ["1", "14", "18"], resposta:1),
-        quiz(label: "2 x 4 ", perguntas: ["3", "9", "8"], resposta:2),
+        quiz(label: "2 x 4", perguntas: ["3", "9", "8"], resposta:2),
         quiz(label: "3 x 9", perguntas: ["5", "27", "18"], resposta:1),
         quiz(label: "5 x 9", perguntas: ["7", "9", "45"], resposta:2),
         quiz(label: "7 x 5", perguntas: ["35", "5", "18"], resposta:0),
@@ -55,7 +55,7 @@ class managerQuiz{
         quiz(label: "2 x 9", perguntas: ["1", "5", "18"], resposta:2),
         quiz(label: "3 x 1", perguntas: ["3", "56", "84"], resposta:0),
         quiz(label: "1 x 9", perguntas: ["9", "2", "62"], resposta:0),
-        quiz(label: "4 x 8?", perguntas: ["6", "33", "32"], resposta:2),
+        quiz(label: "4 x 8", perguntas: ["6", "33", "32"], resposta:2),
         quiz(label: "9 x 3", perguntas: ["32", "27", "2"], resposta:1),
         quiz(label: "8 x 4", perguntas: ["11", "1", "32"], resposta:2),
         quiz(label: "9 x 9", perguntas: ["21", "81", "10"], resposta:1),
@@ -63,7 +63,7 @@ class managerQuiz{
         quiz(label: "5 x 2", perguntas: ["23", "5", "10"], resposta:2),
         quiz(label: "5 x 5", perguntas: ["45", "25", "97"], resposta:1),
         quiz(label: "7 x 8", perguntas: ["54", "59", "56"], resposta:2),
-        quiz(label: "9 x 2?", perguntas: ["56", "18", "21"], resposta:1),
+        quiz(label: "9 x 2", perguntas: ["56", "18", "21"], resposta:1),
         quiz(label: "9 x 4", perguntas: ["99", "0", "36"], resposta:2),
         quiz(label: "3 x 6", perguntas: ["18", "54", "27"], resposta:0),
         quiz(label: "9 x 7", perguntas: ["87", "63", "72"], resposta:1),
@@ -127,13 +127,13 @@ class managerQuiz{
         quiz(label: "7 - 2", perguntas: ["5", "9", "7"], resposta: 0),
         quiz(label: "21 - 7", perguntas: ["14", "16", "15"], resposta: 0),
         quiz(label:  "10 - 6", perguntas: ["4", "2", "3"], resposta: 0),
-        quiz(label: "90 - 100", perguntas: ["12", "10", "11"], resposta: 1),
+        quiz(label: "100 - 90", perguntas: ["12", "10", "11"], resposta: 1),
         quiz(label:  "21 - 22", perguntas: ["1", "2", "0"], resposta: 0),
         quiz(label: "10 - 2", perguntas: ["2", "8", "5"], resposta: 1),
         quiz(label: "5 - 2", perguntas: ["2", "3", "0"], resposta: 1),
         quiz(label: "92 - 2", perguntas: ["91", "90", "88"], resposta: 1),
-        quiz(label: "100 - 2000", perguntas: ["190", "1900", "19"], resposta: 1),
-       quiz(label: "16 - 12?", perguntas: ["4", "2", "5"], resposta: 0)
+        quiz(label: "2000 - 100", perguntas: ["190", "1900", "19"], resposta: 1),
+       quiz(label: "16 - 12", perguntas: ["4", "2", "5"], resposta: 0)
     ]
     
     var minimo = 0
