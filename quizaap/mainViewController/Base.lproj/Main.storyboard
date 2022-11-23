@@ -16,11 +16,9 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="clique em um dos botões abaixo para entrar em um quiz-3" translatesAutoresizingMaskIntoConstraints="NO" id="SiU-vD-TzX">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                            </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="clique em um dos botões abaixo para entrar em um quiz-3" translatesAutoresizingMaskIntoConstraints="NO" id="LGx-Jw-L2d">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <color key="backgroundColor" red="1" green="0.051296262719992325" blue="0.044859796159100074" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SimpleMath" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hji-S8-9vT">
                                 <rect key="frame" x="30" y="61" width="315" height="85"/>
@@ -78,19 +76,19 @@
                                 </subviews>
                                 <constraints>
                                     <constraint firstItem="wSI-JT-edy" firstAttribute="width" secondItem="43G-yi-2r2" secondAttribute="width" multiplier="0.39661" id="6eb-91-34Y"/>
+                                    <constraint firstItem="rAG-6x-RT3" firstAttribute="height" secondItem="43G-yi-2r2" secondAttribute="height" multiplier="0.371747" id="CaO-4Q-xIo"/>
                                     <constraint firstItem="upt-XO-elO" firstAttribute="width" secondItem="43G-yi-2r2" secondAttribute="width" multiplier="0.39661" id="HBY-e0-dSQ"/>
-                                    <constraint firstItem="rAG-6x-RT3" firstAttribute="width" secondItem="43G-yi-2r2" secondAttribute="width" multiplier="0.39661" id="Oei-HT-p56"/>
                                     <constraint firstItem="BDZ-at-cW7" firstAttribute="height" secondItem="43G-yi-2r2" secondAttribute="height" multiplier="0.371747" id="PLN-EZ-rGb"/>
                                     <constraint firstItem="wSI-JT-edy" firstAttribute="height" secondItem="43G-yi-2r2" secondAttribute="height" multiplier="0.371747" id="R0Q-NL-EJB"/>
                                     <constraint firstItem="BDZ-at-cW7" firstAttribute="width" secondItem="43G-yi-2r2" secondAttribute="width" multiplier="0.39661" id="Tlm-bL-Sj8"/>
-                                    <constraint firstItem="rAG-6x-RT3" firstAttribute="height" secondItem="43G-yi-2r2" secondAttribute="height" multiplier="0.371747" id="fRr-vF-wOd"/>
+                                    <constraint firstAttribute="trailing" secondItem="rAG-6x-RT3" secondAttribute="trailing" constant="8" id="ct9-K1-CZr"/>
                                     <constraint firstAttribute="trailing" secondItem="BDZ-at-cW7" secondAttribute="trailing" constant="8" id="g3z-nw-5b9"/>
-                                    <constraint firstItem="rAG-6x-RT3" firstAttribute="top" secondItem="43G-yi-2r2" secondAttribute="top" constant="8" id="jHG-Bv-NX5"/>
                                     <constraint firstAttribute="bottom" secondItem="wSI-JT-edy" secondAttribute="bottom" constant="8" id="lpS-gM-LDD"/>
                                     <constraint firstItem="upt-XO-elO" firstAttribute="height" secondItem="43G-yi-2r2" secondAttribute="height" multiplier="0.371747" id="muk-lg-Wcj"/>
-                                    <constraint firstAttribute="trailing" secondItem="rAG-6x-RT3" secondAttribute="trailing" constant="8" id="ozz-5m-2p1"/>
+                                    <constraint firstItem="rAG-6x-RT3" firstAttribute="top" secondItem="43G-yi-2r2" secondAttribute="top" constant="8" id="mvv-Oc-Na8"/>
                                     <constraint firstAttribute="bottom" secondItem="BDZ-at-cW7" secondAttribute="bottom" constant="8" id="p9D-Hj-Avs"/>
                                     <constraint firstItem="wSI-JT-edy" firstAttribute="leading" secondItem="43G-yi-2r2" secondAttribute="leading" constant="8" id="wRV-cK-Mi5"/>
+                                    <constraint firstItem="rAG-6x-RT3" firstAttribute="width" secondItem="43G-yi-2r2" secondAttribute="width" multiplier="0.39661" id="y7k-Kl-Kp4"/>
                                     <constraint firstItem="upt-XO-elO" firstAttribute="leading" secondItem="43G-yi-2r2" secondAttribute="leading" constant="8" id="yva-Li-ekp"/>
                                     <constraint firstItem="upt-XO-elO" firstAttribute="top" secondItem="43G-yi-2r2" secondAttribute="top" constant="8" id="zSO-It-Y52"/>
                                 </constraints>
@@ -104,14 +102,10 @@
                             <constraint firstItem="DE7-OR-0z2" firstAttribute="top" secondItem="Hji-S8-9vT" secondAttribute="bottom" constant="5" id="Fkw-3P-m5D"/>
                             <constraint firstItem="LGx-Jw-L2d" firstAttribute="leading" secondItem="bS1-3r-gjc" secondAttribute="leading" id="HXJ-Eo-EEQ"/>
                             <constraint firstItem="Hji-S8-9vT" firstAttribute="leading" secondItem="bS1-3r-gjc" secondAttribute="leading" constant="30" id="Oec-3Z-QcE"/>
-                            <constraint firstItem="SiU-vD-TzX" firstAttribute="trailing" secondItem="bS1-3r-gjc" secondAttribute="trailing" id="RXn-7B-5RX"/>
-                            <constraint firstItem="SiU-vD-TzX" firstAttribute="top" secondItem="gA1-Ne-vhu" secondAttribute="top" id="SqF-YG-mWy"/>
                             <constraint firstItem="43G-yi-2r2" firstAttribute="centerX" secondItem="LGx-Jw-L2d" secondAttribute="centerX" id="SwQ-zH-ECz"/>
                             <constraint firstAttribute="bottom" secondItem="LGx-Jw-L2d" secondAttribute="bottom" id="UFU-nx-BWp"/>
-                            <constraint firstItem="SiU-vD-TzX" firstAttribute="leading" secondItem="bS1-3r-gjc" secondAttribute="leading" id="W4P-yd-nJB"/>
                             <constraint firstItem="bS1-3r-gjc" firstAttribute="trailing" secondItem="Hji-S8-9vT" secondAttribute="trailing" constant="30" id="XbY-ku-OPP"/>
                             <constraint firstItem="DE7-OR-0z2" firstAttribute="leading" secondItem="bS1-3r-gjc" secondAttribute="leading" constant="40" id="YI5-m9-sSj"/>
-                            <constraint firstAttribute="bottom" secondItem="SiU-vD-TzX" secondAttribute="bottom" id="ZY8-G3-M7F"/>
                             <constraint firstItem="LGx-Jw-L2d" firstAttribute="top" secondItem="gA1-Ne-vhu" secondAttribute="top" id="dlz-EV-hib"/>
                             <constraint firstItem="bS1-3r-gjc" firstAttribute="trailing" secondItem="DE7-OR-0z2" secondAttribute="trailing" constant="40" id="eMJ-L4-9cQ"/>
                             <constraint firstItem="DE7-OR-0z2" firstAttribute="height" secondItem="LGx-Jw-L2d" secondAttribute="height" multiplier="0.106447" id="ghK-pc-qvm"/>
@@ -146,15 +140,15 @@
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="clique em um dos botões abaixo para entrar em um quiz-3" translatesAutoresizingMaskIntoConstraints="NO" id="Oy3-io-yPx">
-                                <rect key="frame" x="0.0" y="-226" width="414" height="894"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="894"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="clique em um dos botões abaixo para entrar em um quiz-3" translatesAutoresizingMaskIntoConstraints="NO" id="8nc-dz-Pe7">
-                                <rect key="frame" x="0.0" y="-226" width="414" height="894"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="894"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="clique em um dos botões abaixo para entrar em um quiz-3" translatesAutoresizingMaskIntoConstraints="NO" id="zOn-n4-eJG">
-                                <rect key="frame" x="0.0" y="-226" width="414" height="894"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="894"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="clique em um dos botões abaixo para entrar em um quiz-3" translatesAutoresizingMaskIntoConstraints="NO" id="WWy-dO-uXn">
@@ -305,15 +299,15 @@
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="clique em um dos botões abaixo para entrar em um quiz-3" translatesAutoresizingMaskIntoConstraints="NO" id="9Mk-mB-o7b">
-                                <rect key="frame" x="0.0" y="-226" width="414" height="894"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="894"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="clique em um dos botões abaixo para entrar em um quiz-3" translatesAutoresizingMaskIntoConstraints="NO" id="ag2-CA-UzW">
-                                <rect key="frame" x="0.0" y="-226" width="414" height="894"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="894"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="clique em um dos botões abaixo para entrar em um quiz-3" translatesAutoresizingMaskIntoConstraints="NO" id="Agg-K4-ihz">
-                                <rect key="frame" x="0.0" y="-226" width="414" height="894"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="894"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="clique em um dos botões abaixo para entrar em um quiz-3" translatesAutoresizingMaskIntoConstraints="NO" id="G8A-Lr-3Vf">

@@ -18,13 +18,13 @@ var manger = managerQuiz()
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        if manger.pontuação < 4{
+        if manger.pontuação < 3{
             textao.text = "Estude mais"
-        }else if manger.pontuação < 8 {
+        }else if manger.pontuação < 5 {
             textao.text = "Tente de novo"
-        }else if manger.pontuação < 10{
-            textao.text = "Quase lá!"
-        }else {textao.text = "Parabéns,você é um genio"}
+        }else if manger.pontuação < 7{
+            textao.text = "Na proxima você consegue"
+        }else if manger.pontuação < 8 {textao.text = "Quase lá"}else {textao.text = "Parabéns,você é um gênio"}
         
     
     }

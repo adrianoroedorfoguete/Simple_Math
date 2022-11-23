@@ -141,19 +141,22 @@ class managerQuiz{
     var pontuação = 0
     var index = 0
     var respostas = 0
-   var total = 10
+   var total = 8
    
     func reloadQuiz() -> quiz{
         index = Int.random(in: minimo...maximo)
         return pergunta[index]
         
     }
-// nos vivemos em uma sociedade
     
-    func checkAswer(posiçao:Int){
+    
+    func checkAswer(posiçao:Int) -> Bool{
         if posiçao == pergunta[index].resposta{
-            
             pontuação = pontuação + 1
+            return true
+        }else{
+            pontuação = pontuação - 1
+            return false
         }
         
     }
