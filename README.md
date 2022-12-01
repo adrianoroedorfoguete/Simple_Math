@@ -1,7 +1,4 @@
-![App (1)](https://www.canva.com/design/DAFTgq9u0IE/fwBoSts6Fv9WsUP62TYuPA/edit?utm_content=DAFTgq9u0IE&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
-
-
-<h1 align="center"> App </h1>
+![App (1)](link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">)
 
 <p align="center">
 <img src="https://img.shields.io/badge/Code-Swift-orange"/>
