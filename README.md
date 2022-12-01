@@ -1,7 +1,7 @@
-![AppSol (1)](https://user-images.githubusercontent.com/97364522/202912499-9955afa8-d536-48e7-8f50-448b3705d2b8.png)
+![App (1)](https://www.canva.com/design/DAFTgq9u0IE/fwBoSts6Fv9WsUP62TYuPA/edit?utm_content=DAFTgq9u0IE&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
 
-<h1 align="center"> AppSol </h1>
+<h1 align="center"> App </h1>
 
 <p align="center">
 <img src="https://img.shields.io/badge/Code-Swift-orange"/>
