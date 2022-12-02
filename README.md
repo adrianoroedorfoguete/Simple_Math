@@ -29,5 +29,7 @@ Fazer com que varias crianças aprendam matemática de um jeito divertido e prá
 - Canvas
 
 ## Desenvolvedor:computer:
-- Programação - (https://github.com/adrianoroedorfoguete), (https://github.com/jafuibom)
-- 
+### Programação:
+- (https://github.com/adrianoroedorfoguete)-(https://github.com/jafuibom)
+### Design:
+- Design:(https://github.com/lolad4k)
