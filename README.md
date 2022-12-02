@@ -33,3 +33,5 @@ Fazer com que varias crianças aprendam matemática de um jeito divertido e prá
 - (https://github.com/adrianoroedorfoguete)-(https://github.com/jafuibom)
 ### Design:
 - Design:(https://github.com/lolad4k)
+
+![snake gif](https://github.com/adrianoroedorfoguete/adrianoroedorfoguete/blop/output/github-contribution-grid-snake.svg)
