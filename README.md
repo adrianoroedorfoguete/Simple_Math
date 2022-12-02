@@ -28,7 +28,7 @@ Fazer com que varias crianças aprendam matemática de um jeito divertido e prá
 - XCode
 - Canvas
 
-## Desenvolvedor:computer:
+## Desenvolvedores:computer:
 ### Programação:
 - (https://github.com/adrianoroedorfoguete) 
 - (https://github.com/jafuibom)
