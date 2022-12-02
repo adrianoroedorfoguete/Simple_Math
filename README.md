@@ -30,6 +30,7 @@ Fazer com que varias crianças aprendam matemática de um jeito divertido e prá
 
 ## Desenvolvedor:computer:
 ### Programação:
-- (https://github.com/adrianoroedorfoguete) - (https://github.com/jafuibom)
+- (https://github.com/adrianoroedorfoguete) 
+- (https://github.com/jafuibom)
 ### Design:
 - (https://github.com/lolad4k)
