@@ -10,7 +10,9 @@
 ## Descrição
 Um aplicativo que ensina as 4 operações matemáticas, direcionado ao público infantil de 4 a 6 anos de idade.
 
-![o app foi feito para ensinar matemátca basica de uma maneira mais atrativa , com desing e mecanicas facitadas para as crianças](https://user-images.githubusercontent.com/110940593/205041160-ac2d601d-4f96-4e59-85bd-791e3184b0e7.png)
+![O app foi feito para ensinar matemática básica de uma maneira mais atrativa , com design e mecânicas facilitadas para as crianças](https://user-images.githubusercontent.com/110940593/205219665-a3499e24-1866-4be6-a90e-6e7d50f05b68.png)
+
+
 
 ## Status
 :triangular_flag_on_post:já lançado para iphone e ipad:triangular_flag_on_post:
@@ -27,4 +29,5 @@ Fazer com que varias crianças aprendam matemática de um jeito divertido e prá
 - Canvas
 
 ## Desenvolvedor:computer:
-- (https://github.com/adrianoroedorfoguete)
+- Programação - (https://github.com/adrianoroedorfoguete), (https://github.com/Neto0105#)
+- 
