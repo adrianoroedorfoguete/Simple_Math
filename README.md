@@ -3,7 +3,7 @@
 <h1 align="center"> Simple_Math </h1>
 <p align="center">
 <img src="https://img.shields.io/badge/Code-Swift-red"/>
-<img src="https://img.shields.io/badge/CodingClub-blue"/>
+<img src="https://img.shields.io/badge/Code-Club-blue"/>
 <img src="https://img.shields.io/badge/ICBEU-green"/>
 </p>
 
